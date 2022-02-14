@@ -1,0 +1,456 @@
+/* Página de estilização */
+
+* {
+    /* área de margem da página */
+    margin: 0;
+    /* área de preenchimento em todos os lados da página*/
+    padding: 0;
+    /*borda*/
+    box-sizing: border-box;
+}
+
+
+/*Corpo do site*/
+
+body {
+    overflow-x: hidden;
+}
+
+
+/*região da logo, pesquisa e login*/
+
+header {
+    position: absolute;
+    width: 1366px;
+    height: 146px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+
+/* Posição dos elementos da logo */
+
+#logo {
+    position: absolute;
+    width: 272px;
+    height: 114.77px;
+    left: 81.03px;
+    top: 21px;
+}
+
+
+/*Campo de pesquisa*/
+
+input#pesquisa {
+    position: absolute;
+    width: 288px;
+    height: 32px;
+    left: 410px;
+    top: 34px;
+    background: #C4C4C4;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+
+/*Imagem da lupa*/
+
+#btn {
+    position: absolute;
+    left: 48.9%;
+    right: 49.34%;
+    top: 25%;
+    bottom: 96.75%;
+    background: none;
+}
+
+
+/*Edição do placeholder (texto de dentro do campo de pesquisa)*/
+
+#pesquisa::-webkit-input-placeholder {
+    position: absolute;
+    width: 164px;
+    height: 13px;
+    left: 429px;
+    bottom: 1850px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #6F1766;
+}
+
+
+/*Botão de matricula*/
+
+.btn-matricula button {
+    position: absolute;
+    width: 163px;
+    height: 45px;
+    left: 871px;
+    top: 31px;
+    background: #6F1766;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.btn-matricula button:hover {
+    background-color: #808080;
+}
+
+
+/*imagem login*/
+
+.usuario {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1186px;
+    top: 30px;
+    border-radius: 30px;
+}
+
+.usuario:hover {
+    background-color: #6F1766;
+}
+
+.texto {
+    position: absolute;
+    left: 90.63%;
+    right: 6.44%;
+    top: 30%;
+    bottom: 96.64%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #6F1766;
+}
+
+.seta-baixo {
+    position: absolute;
+    left: 93.05%;
+    right: 5.93%;
+    top: 30%;
+    bottom: 97%;
+}
+
+
+/*Menu*/
+
+nav {
+    position: absolute;
+    width: 1362px;
+    height: 76px;
+    left: 0px;
+    top: 151px;
+    background: #6F1766;
+}
+
+
+/* Menu */
+
+ul,
+li {
+    list-style: none;
+}
+
+.menu {
+    z-index: 5;
+}
+
+.menu ul {
+    text-align: justify;
+    z-index: 3;
+}
+
+.menu-item {
+    width: 24.5%;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 69px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.menu-item li:hover {
+    background-color: #808080;
+}
+
+
+/* .galeria {
+    background-color: black;
+}
+
+.contato {
+    background-color: #3B97D3;
+}
+
+.cursos {
+    background-color: #790909;
+} */
+
+
+/*Imagem de fundo*/
+
+.imagem img {
+    position: absolute;
+    /* width: 1440.50px;
+    height: 614.15px; */
+    /* left: -4px;
+    top: 104px; */
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    /* width: 1371px; */
+    /* height: 500px; */
+    left: 0px;
+    top: 220px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*Galeria de fotos*/
+
+fieldset {
+    border-top: 1px solid #333;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: center;
+}
+
+legend#glf {
+    position: absolute;
+    width: 347px;
+    height: 88px;
+    left: 506px;
+    top: 661px;
+    font-family: Calligraffitti;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 47.1845px;
+    line-height: 74px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img#linha1 {
+    position: absolute;
+    width: 477px;
+    height: 7px;
+    left: 33px;
+    top: 698px;
+}
+
+
+/*  */
+
+img#linha2 {
+    position: absolute;
+    width: 477px;
+    height: 7px;
+    left: 853px;
+    top: 698px;
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+section#secao1 {
+    position: absolute;
+    width: 1366px;
+    height: 387px;
+    left: 0px;
+    top: 807px;
+    background: #6F1766;
+}
+
+img#seta-esquerda {
+    position: absolute;
+    width: 64px;
+    height: 50px;
+    left: 1220px;
+    top: 25px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+img#seta-direita {
+    position: absolute;
+    left: 1280px;
+    height: 50px;
+    top: 25px;
+    width: 64px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+div#carrossel {
+    position: absolute;
+    width: 1365px;
+    height: 294px;
+    left: 0px;
+    top: 50px;
+    background-image: url('../img/1.png');
+}
+
+#seta-esquerda:hover {
+    background-color: #808080;
+    border-radius: 5px;
+}
+
+#seta-direita:hover {
+    background-color: #808080;
+    border-radius: 5px;
+}
+
+
+/*----------------------------------------------------------*/
+
+legend#cnt {
+    position: absolute;
+    width: 347px;
+    height: 88px;
+    left: 504px;
+    top: 1245px;
+    font-family: Calligraffitti;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 47.1845px;
+    line-height: 74px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img#linha3 {
+    position: absolute;
+    width: 534px;
+    height: 7px;
+    left: 34px;
+    top: 1285px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+img#linha4 {
+    position: absolute;
+    width: 534px;
+    height: 7px;
+    left: 784px;
+    top: 1285px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+
+/*Area de contato*/
+
+section#secao2 {
+    position: absolute;
+    width: 1366px;
+    height: 310px;
+    left: 1px;
+    top: 1370px;
+    background: #C4C4C4;
+}
+
+img#instagram {
+    position: absolute;
+    width: 58.14px;
+    height: 57px;
+    left: 498px;
+    top: 118px;
+}
+
+img#facebook {
+    position: absolute;
+    width: 58.14px;
+    height: 57px;
+    left: 658px;
+    top: 118px;
+}
+
+img#whatsapp {
+    position: absolute;
+    left: 818px;
+    right: 57px;
+    top: 118px;
+    width: 58.14px;
+}
+
+
+/*Area do rodapé*/
+
+footer#secao3 {
+    position: absolute;
+    width: 1366px;
+    height: 169px;
+    left: 0px;
+    top: 1680px;
+    background: #6F1766;
+}
+
+img#seta-cima {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 6px;
+    bottom: 4.93%;
+    width: 24.95px;
+}
+
+button#btn-seta {
+    position: absolute;
+    width: 189px;
+    height: 39px;
+    left: 589px;
+    top: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#btn-seta:hover {
+    background-color: #808080;
+}
+
+p#rodape {
+    position: absolute;
+    width: 258px;
+    height: 19px;
+    left: 570px;
+    top: 105px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+}
